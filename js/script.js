@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded",function(){
         c=window.location.href,
         a=document.querySelector("meta[property='og:image']")?.content || "",
         r=new Date,
-        d=r.toLocaleDateString("id-ID",{day:"2-digit",month:"long",year:"numeric"})+" • "+r.toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit"}),
+        d=r.toLocaleDateString("id-ID",{day:"2-digit",month:"long",year:"numeric"})+" â€¢ "+r.toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit"}),
         i=btoa(c);
 
   let s=JSON.parse(localStorage.getItem("bookmarkedPosts"))||[];
